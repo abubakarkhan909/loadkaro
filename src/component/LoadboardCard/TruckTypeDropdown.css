@@ -1,0 +1,81 @@
+.truck-type-dropdown {
+    position: relative;
+    width: 200px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .truck-type-dropdown .dropdown-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid var(--lightdark);
+    background-color: var(--white);
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+    height: 50px;
+  }
+  .truck-type-dropdown .selected-image{
+    display: none;
+  }
+  .truck-type-dropdown .selected-image[src] {
+    display: block;
+    width: 35px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .truck-type-dropdown .dropdown-header span{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .truck-type-dropdown .dropdown-list {
+    position: absolute;
+    width: 430px;
+    max-width: 430px;
+    top: 100%;
+    left: 0;
+    border: 1px solid var(--lightdark);
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 10px;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .truck-type-dropdown .dropdown-item {
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid var(--lightdark);
+    overflow: hidden;
+  }
+  .truck-type-dropdown .dropdown-item .truckname{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .truck-type-dropdown .dropdown-item .truckinfo{
+    text-align: center;
+    background-color: var(--lightdark);
+    padding: 5px 10px;
+
+  }
+  .truck-type-dropdown .dropdown-item.selected {
+    background-color: var(--light);
+    border-color: var(--primary_color);
+  }
+  .truck-type-dropdown .dropdown-item:hover{
+    border-color: var(--primary_color);
+  }
+  
+  .truck-type-dropdown .dropdown-item-image {
+    width: 65px;
+    height: auto;
+    margin-right: 10px;
+  }
+  

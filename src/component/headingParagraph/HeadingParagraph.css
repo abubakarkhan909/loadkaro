@@ -1,0 +1,22 @@
+.headingSection{
+    text-align: center;
+}
+.headingSection h2{
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 56.88px;
+    margin: 0;
+}
+.headingSection p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    margin: 20px 0 0;
+}
+.headingType1{
+    max-width: 100%;
+}
+.headingType2{
+    max-width: 748px;
+    margin: 0 auto;
+}

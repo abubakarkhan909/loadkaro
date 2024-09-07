@@ -1,0 +1,119 @@
+.slider-container {
+   padding: 40px 15px 0;
+   max-width: 1430px;
+   margin: 0 auto;
+  }
+
+  .sliderinner{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary_color);
+    color: var(--white);
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+  .sliderinner img{
+    z-index: 1;
+    position: relative;
+    max-width: 60%;
+    max-height: 335px;
+  }
+  .sliderinner .detail{
+    background-color: var(--primary_color);
+    color: var(--white);
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sliderinner .detail .detailinner{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+  }
+  .sliderinner .detail h2{
+    margin: 0 0 15px;
+    font-size: 40px;
+    line-height: 56.88px;
+    font-weight: 700;
+    color: var(--white);
+    text-align: right;
+  }
+  .sliderinner .detail p{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    width: fit-content;
+    text-align: left;
+  }
+  .sliderinner .detail p span{
+    display: block;
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 400;
+  }
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  .slidecontent {
+    position: relative;
+
+    }
+   .slider-container .slick-slider .slick-arrow::before{
+     content: "" !important;
+     width: 15px;
+     height: 15px;
+     background-position: center center;
+     background-size: contain;
+     display: block;
+     background-repeat: no-repeat;
+   }
+   .slider-container .slick-slider .slick-prev::before{
+      background: url(./../../assets/leftarrow.svg);
+    }
+    .slider-container .slick-slider .slick-next::before{
+      background: url(./../../assets/rightarrow.svg);
+    }
+
+    .custom-arrows{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .custom-arrows .dots-container{
+      width: fit-content;
+    }
+    .custom-arrows .dots-container .slick-dots{
+      position: relative;
+      bottom: auto;
+      line-height: normal;
+    }
+    .custom-arrows .dots-container .slick-dots li {
+      width: auto;
+      height: auto;
+      margin: 0 2.5px;
+    }
+    .custom-arrows .dots-container .slick-dots .custom-dot{
+      width: 12px;
+      height: 12px;
+      border-radius: 100%;
+      background: var(--gray_text);
+      cursor: pointer;
+    }
+    .custom-arrows .dots-container .slick-dots li.slick-active .custom-dot{
+      background: var(--primary_color);
+    }
+    .custom-arrows .arrow {
+        line-height: normal;
+        width: 17px;
+        height: 17px;
+        cursor: pointer;
+    }

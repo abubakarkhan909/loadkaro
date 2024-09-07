@@ -1,0 +1,109 @@
+.footer {
+    padding: 50px 0 0;
+  }
+  .footer .footer_links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--lightdark);
+  }
+  .footer .footer-logo{
+    width: 160px;
+    padding-right: 50px;
+    text-align: left;
+  }
+  .footer-sections {
+
+    display: flex;
+    width: calc(100% - 160px);
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    padding: 0 15px;
+    width: 25%;
+  }
+  .footer-column .linklist{
+    margin-bottom: 20px;
+  }
+  .footer-column h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.2px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column a,.footer-column span {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .footer-column a[href="/"]{
+    cursor: auto;
+  }
+  
+  .footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+  }
+  .footer_bottom p{
+    margin: 0;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+  }
+  .footer_bottom a{
+    display: inline-block;
+    margin-left: 30px;
+  }
+
+  .auth-footer{
+    background-color: var(--primary_color);
+    padding-top: 40px;
+  }
+
+  .auth-footer-links{
+    padding-bottom: 50px;
+    border-bottom: 1px solid var(--lightdark);
+  }
+  .auth-footer-links ul{
+    display: flex;
+  }
+  .auth-footer-links ul li{
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .auth-footer-links ul li .widget{
+    text-align: center;
+  }
+  .auth-footer-links ul li .widget p,  .auth-footer-links ul li .widget p a{
+    color: var(--white);
+    margin-bottom: 15px;
+    font-weight: 400;
+  }
+  .auth-footer h4{
+     color: var(--white);
+     font-size: 20px;
+     line-height: 24px;
+     margin: 0 0 15px; 
+  }
+  address {
+    color: var(--white);
+    margin-bottom: 15px;
+    font-style: normal;
+    line-height: inherit;
+  }
+  .auth-footer .footer_bottom{
+    color: var(--white);
+  }
+  .auth-footer .footer_bottom .socials img{
+    filter: brightness(0) invert(1);
+  }

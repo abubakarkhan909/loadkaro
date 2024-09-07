@@ -1,0 +1,385 @@
+.checkfareForm{
+    border-radius: 16px;
+    background-color: #F8F8F8;
+    padding: 30px 20px;
+}
+.checkfareForm h4{
+    margin: 0 0 30px;
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 400;
+}
+.checkfareForm form label{
+    display: flex;
+    align-items: center;
+}
+.checkfareForm form input[type="radio"]{
+    position: relative;
+    margin-right: 7px;
+    margin-left: 4px;
+    box-shadow: 0px 0px 0px 1px var(--primary_color);
+    font-size: 3em;
+    width: 12px;
+    height: 12px;
+    border: 3px solid #fff;
+    background-clip: border-box;
+    border-radius: 50%;
+    appearance: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    padding: 0 0;
+    margin-bottom: 0;
+}
+
+.checkfareForm form input[type='radio']:checked{
+    box-shadow: 0px 0px 0px 4px var(--primary_color);
+    background-color: var(--primary_color);
+}
+
+.checkfareForm label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+.checkfareForm input[type='text']{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #EEEEEE;
+    outline: none;
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 400;
+    padding: 15px ;
+    box-sizing: border-box;
+    margin-top: 20px;
+    background-color: var(--white);
+    color: var(--black);
+}
+.checkfareForm input[type='text']::placeholder{
+    color: #8E8E8E;
+}
+.checkfareForm button{
+    margin-right: 10px;
+}
+.checkfareForm button:last-child{
+    margin-right: 0;
+}
+.checkfareForm .btns{
+    margin-top: 20px;
+}
+.innerformdiv {
+    max-width: 502px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 15px;
+}
+.innerformdiv h4{
+    font-size: 20px;
+    line-height: 24px;
+    margin:  0 0 30px;
+}
+.innerformdiv .radioservice{
+
+}
+.innerformdiv .radioservice label .labeltextcontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid var(--lightdark);
+   cursor: pointer;
+}
+.innerformdiv .radioservice:nth-child(2) label .labeltextcontent{
+    border-top: 1px solid var(--lightdark);
+}
+.innerformdiv .radioservice label .labeltextcontent:hover{
+    background: var(--light);
+}
+.innerformdiv .radioservice label input[type="radio"]{
+    display:none; 
+}
+.innerformdiv .radioservice label input[type="radio"]:checked + .labeltextcontent{
+    background: var(--light);
+}
+.innerformdiv .radioservice label .textcontent{
+    text-align: left;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.innerformdiv .radioservice label .textcontent span{
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--gray_text);
+    margin-top: 5px;
+}
+.step-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.step-buttons button.btn-primary{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.step-buttons button.btn-primary svg{
+    color: var(--white);
+    font-size: 20px;
+}
+.step-buttons button.btn-primary:hover svg{
+    color: var(--primary_color);
+}
+.bigbtn{
+    
+}
+.inuputlabeli{
+    display: flex;
+    flex-direction: column;
+    height:56px;
+    background-color: rgb(248, 248, 248);
+    padding: 10px 15px;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    width: calc(100% - 148px);
+    text-align: left;
+    position: relative;
+}
+.inuputlabeli label{
+    font-size: 12px;
+    color: var(--dark);
+}
+.inuputlabeli input{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    box-shadow: none;
+    outline: none;
+}
+.inputswe{
+    display: flex;
+    flex-wrap: wrap;
+}
+.selecti{
+    width: 133px;
+    margin-left: 15px;
+    padding: 10px 15px;
+}
+.selecti select{
+    border: none;
+    height: 100%;
+    font-size: 16px;
+    background: transparent url(./../../assets/downarrow.svg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    box-shadow: none;
+    outline: none;
+}
+.bglight{
+    background-color: var(--light);
+}
+.locationBox{
+    position: relative;
+}
+.cityList{
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+    left: 0;
+    margin-top: 0;
+    top: 100%;
+    background-color: #ffffff;
+    border-top: 0.1rem solid #E2E2E2;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.16);
+    z-index: 1;
+}
+.cityList ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.cityList ul li{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+}
+.cityList .details{
+    width: 100%;
+}
+.cityList ul li .title{
+    font-size: 16px;
+    line-height: 19px
+}
+.selected-materials{
+    width: 100%;
+    text-align: left;
+    background: var(--light);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 5px 10px 10px;
+}
+.selected-materials ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.selected-materials ul li{
+    display: flex;
+    color: var(--white);
+    background-color: var(--primary_color);
+    font-size: 16px;
+    border-radius: 200px;
+    padding: 7px 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.selected-materials ul li button{
+    background: transparent;
+    color: var(--white);
+    cursor: pointer;
+    -webkit-box-pack: center;
+    font-size: 23px;
+    width: 17px;
+    height: 17px;
+    padding: 0px;
+    position: relative;
+    top: 1px;
+    right: -4px;
+    margin-left: 5px;
+    box-shadow: none;
+    border: none;
+    line-height: 1;
+}
+.otp-inputs p{
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 15px;
+}
+.otpinputs{
+    display: flex; 
+    align-items: center;
+}
+.inputin{
+    margin-right: 10px;
+}
+.inputin:last-child{
+    margin-right: 0;
+}
+.otpinputs input{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background-color: #F8F8f8;
+    padding: 15px 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    width: 100% !important;
+    font-size: 18px;
+}
+.resend-otp,.otp-timer{
+    margin-top: 30px;
+}
+.resend-otp button,.otp-timer button{
+    padding: 0;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    background: transparent;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+}
+.materiallisted .selected-materials ul{
+  display: block;
+}
+.materiallisted .selected-materials ul li{
+    width: 100%;
+    margin-right: 0;
+    border-radius: unset;
+    background: transparent;
+    color: #000;
+    justify-content: space-between;
+    align-items: center;
+}
+.materiallisted .selected-materials ul li:first-child{
+    margin-top: 0;
+}
+.materiallisted .selected-materials ul li .buttons{
+  display: flex;
+  align-items: center;
+}
+.materiallisted .selected-materials ul li .buttons button{
+    color: var(--black);
+    background: var(--white);
+    padding: 5px;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+.materiallisted .selected-materials ul li .buttons button:hover{
+    background:var(--lightdark)
+}
+.materiallisted .selected-materials ul li .buttons button img {
+    max-width: 100%;
+    height: auto;
+    width: 14px;
+}
+.materiallisted button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.materiallisted button span {
+    font-size: 32px;
+    line-height: 20.83px;
+    margin-right: 6px;
+}
+.innerformdiv .heading h4{
+    margin-bottom: 10px;
+}
+.innerformdiv .heading p{
+    margin: 0 0 30px;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black);
+}
+.moverpacker .formcontrol_Parent{
+    width: 100%;
+}
+.moverpacker select{
+    border: 1px solid var(--lightdark);
+    height: 50px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: var(--white);
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+    appearance: none;
+    background: #fff url(/src/assets/downarrow.svg);
+    background-repeat: no-repeat;
+    background-position: 96% 21px;
+}
+.moverpacker .formcontrol_Parent .form-control {
+    max-width: 100%;
+    width: calc(50% - 15px);
+}

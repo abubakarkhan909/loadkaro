@@ -1,0 +1,156 @@
+/* src/Header.css */
+
+.header {
+    padding: 35px 80px;
+    border-bottom: 1px solid #EEEEEE;
+  }
+  .header .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+.header .logo a{
+  display: block;
+  line-height: normal;
+  height: 28px;
+}
+.rightheader{
+  display: flex;
+  align-items: center;
+}
+.rightheader .accountbtn{
+  margin-right: 40px;
+  line-height: normal;
+ position: relative; 
+}
+.rightheader .accountbtn::after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background: #D2D2D2;
+  position: absolute;
+  right: -20px;
+}
+
+.rightheader .accountbtn a{
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  line-height: 24.2px;
+ 
+}
+.rightheader .tooglebtn{
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+ 
+}
+.rightheader .tooglebtn button{
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  padding: 0 0;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightheader .togglebtn img {
+  transition: all 0.3s ease-in-out;
+}
+.togglenavbar{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 34px);
+  background: #fff;
+  margin-top: 1px;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.1), 0 4px 11px 0 rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 10px;
+  z-index: 1;
+}
+.togglenavbar .container-sm{
+  padding: 45px 188px;
+}
+.togglenavbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.togglenavbar ul li{
+  margin-right: 81px;
+  margin-bottom: 15px;
+}
+.togglenavbar ul li ul {
+  display: block;
+}
+.togglenavbar ul li ul li{
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.togglenavbar ul li h2{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.togglenavbar ul li h2 img{
+  margin-right: 10px; 
+}
+.togglenavbar ul li a{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  color: #878787;
+}
+.stepperHeader{
+ 
+  padding: 20px 80px;
+  border-bottom: 1px solid var(--lightdark);
+}
+.stepperHeader .inner{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.stepperHeader .arrbtns button{
+  background-color: transparent;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.stepperHeader .locate span{
+   margin: 0 10px;
+}
+.stepperHeader .locate{
+  font-size: 16px;
+  line-height: 19px;
+}
+.logout{
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
+  color: var(--primary_color);
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0 0;
+  cursor: pointer;
+}
+.Head_dropdownmenu a{
+  font-weight: normal;
+}

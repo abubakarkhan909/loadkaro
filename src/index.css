@@ -1,0 +1,324 @@
+:root {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #000;
+  box-sizing: border-box;
+  background-color: #fff;
+  --primary_color: #124246;
+  --gray_text:#b7b7b7;
+  --white:#fff;
+  --black:#000;
+  --light:#F1F3F5;
+  --lightdark:#D9D9D9;
+  --dark:#525252;
+  --danger:#dc3545;
+
+}
+body,html,#root,* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+h2{
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 56px;
+}
+h4{
+  font-size:20px;
+  line-height:24.2px;
+  font-weight: 700;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0;
+}
+.w-100{
+  width: 100% !important;
+}
+.h-100{
+  height: 100%;
+}
+.mt-3 {
+  margin-top: 15px;
+}
+.mt-5{
+  margin-top: 30px;
+}
+.text-danger,.error{
+  color: var(--danger) !important;
+}
+.text-center{
+  text-align: center;
+}
+.mx-auto{
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.marginbottom50px{
+  margin-bottom: 50px !important;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+input,select{
+  margin: 0;
+  color: var(--black);
+}
+
+
+.btn{
+  border-radius: 10px;
+  padding: 14.5px 26px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20.83px;
+  border: 1px solid;
+  display: inline-block;
+  cursor: pointer;
+}
+.btn-primary{
+  border-color: var(--primary_color);
+  background-color: var(--primary_color);
+  color: var(--white);
+}
+.btn-primary:hover{
+   background-color: transparent;
+   color: var(--primary_color);
+}
+.btn-outline-primary{
+  background-color: transparent;
+  border-color: var(--primary_color);
+  color: var(--primary_color);
+}
+.btn-outline-primary:hover{
+  background-color: var(--primary_color);
+  color: var(--white);
+}
+.btn.reset{
+  padding: 12px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-color: var(--black);
+}
+.btn-link{
+  padding: 0 0;
+  background-color: transparent;
+  color: var(--primary_color);
+  border: none;
+}
+.btn-success{
+  background-color: #4BB543;
+  border-color: #4BB543;
+  color: var(--white);
+}
+.container{
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+.mb-100px{
+  margin-bottom: 80px;
+}
+.slick-slider .slick-dots li{
+  width: 12px;
+  height: 12px;
+  margin: 0 2px;
+  border-radius: 100%;
+}
+.slick-slider .slick-dots li button{
+  padding: 0;
+  border-radius: 100%;
+}
+.slick-slider .slick-dots li button:before{
+  width: 12px;
+  height: 12px;
+  content: "";
+  background-color: var(--lightdark);
+  border-radius: 100%;
+  opacity: 1;
+}
+.slick-slider .slick-dots li.slick-active button:before{
+  background-color: var(--primary_color);
+}
+.marginbottom80px{
+  margin-bottom: 80px;
+}
+.margin50auto{
+  margin: 0px auto 50px;
+}
+.Mui-focused{
+  color: var(--primary_color) !important;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 1000;
+  padding: 100px 15px 0;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.popup-content h2 {
+  margin-bottom: 0px;
+  font-size: 24px;
+  line-height: 25px;
+  color: #26d141;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 1000;
+}
+
+
+.modal {
+  margin: 50px 15px 20px;
+  background: white;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.3s ease-in-out;
+}
+.modal .btn.close {
+  margin-top: 0px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 18px;
+}
+.modal h2.contact{
+  color: #26d141;
+  font-size: 40px;
+  line-height: normal;
+  margin: 35px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal h2.contact a{
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary_color);
+  /* text-shadow: 2px -2px 3px var(--dark); */
+}
+.modal h2.contact a span{
+  margin-right: 10px;
+  animation: horizontal-shaking 0.35s 2; 
+}
+.modal h2.contact a:hover{
+  color: #26d141;
+}
+.modal h2.contact a:hover span{
+  animation: horizontal-shaking 0.35s infinite; 
+}
+body div.precontent{
+  color: inherit;
+}
+.usericon{
+  max-width: 24px;
+}
+.loadingdata {
+  min-height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#loading-bar-spinner.spinner {
+  position: absolute;
+  z-index: 19 !important;
+  animation: loading-bar-spinner 400ms linear infinite;
+}
+
+#loading-bar-spinner.spinner .spinner-icon {
+  width: 40px;
+  height: 40px;
+  border:  solid 8px var(--light);
+  border-top-color:  var(--primary_color) !important;
+  border-left-color: var(--primary_color)!important;
+  border-radius: 50%;
+}
+label{
+  margin: 10px 0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--black);
+  display: block;
+}
+
+@keyframes loading-bar-spinner {
+0%   { transform: rotate(0deg);   transform: rotate(0deg); }
+100% { transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+@keyframes horizontal-shaking {
+  0% { transform: translateX(0) }
+  25% { transform: translateX(5px) }
+  50% { transform: translateX(-5px) }
+  75% { transform: translateX(5px) }
+  100% { transform: translateX(0) }
+}

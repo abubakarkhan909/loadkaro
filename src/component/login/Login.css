@@ -1,0 +1,139 @@
+.authscreenmain{
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.authscreenmain h4{
+    margin: 10px 0 20px;
+    text-align: center;
+}
+.authinnermain{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 .1rem 1rem .25rem rgba(0, 0, 0, .05);
+    background-color: var(--light);
+}
+.tabsbtn button{
+    height: 50px;
+    width: 50%;
+    border:none;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid var(--lightdark);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--lightdark);
+    cursor: pointer;
+}
+.tabsbtn button.active{
+    border-color: var(--primary_color);
+    color: var(--primary_color);
+    font-weight: 600;
+}
+.innercontent{
+    padding: 30px 20px;
+    
+}
+.innercontent h2{
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--black);
+    margin: 0 0 30px;
+    text-align: center;
+}
+.authinputsform{
+    display: flex;
+    flex-direction: column;
+}
+.authinputsform label{
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--black);
+    display: block;
+}
+.authinputsform label.tooltipmain {
+    display: flex;
+    align-items: center;
+}
+.authinputsform input{
+    border: 1px solid var(--lightdark);
+    height: 50px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: var(--white);
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 16px;
+    line-height: 19px;
+}
+.authinputsform input[type="file"] {
+    padding: 14px 15px;
+}
+.authinputsform select{
+    border: 1px solid var(--lightdark);
+    height: 50px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: var(--white);
+    width: 160px;
+    margin-bottom: 10px;
+    outline: none;
+    appearance: none;
+    background: #fff url(/src/assets/downarrow.svg);
+    background-repeat: no-repeat;
+    background-position: 130px 21px;
+}
+.innercontent p a{
+    color: #5495FF;
+    font-weight: 400;
+}
+.authinnermain.driversignup{
+    width: 100%;
+    padding: 0 0;
+}
+.authinnermain.driversignup .authinputsform{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ flex-direction: row;
+}
+.driversignup .form-control{
+    max-width: 100%;
+    width: calc(50% - 15px);
+}
+.form-control .image-preview{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.form-control .image-preview img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    min-width: 200px;
+    object-position: center;
+}
+.form-control .image-preview button {
+    position: absolute;
+    left: 12px;
+    top: 15px;
+    cursor: pointer;
+    
+}
+.formcontrol_Parent{
+    width: calc(50% - 15px);
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.authinputsform .formcontrol_Parent select{
+    width: 100%;
+    background-position: 96% 21px;
+}

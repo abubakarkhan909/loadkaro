@@ -1,0 +1,231 @@
+.loadboardmain{
+    padding: 80px 0;
+  }
+  .loadboardmain .search-inputs{
+    background-color: var(--light);
+    border-radius: 16px;
+    padding: 20px 20px;
+   
+  }
+  .loadboardmain .search-inputs .inputsinner{
+      display: flex;
+  }
+  .loadboardmain .search-inputs h4{
+      margin-bottom: 15px;
+  }
+  .loadboardmain .search-inputs .inputsinner .form-control{
+    width: 100%;
+    margin-right: 15px;
+  }
+  .loadboardmain .search-inputs .inputsinner .form-control:last-child{
+      margin-right: 0;
+  }
+  .loadboardmain .search-inputs .inputsinner label{
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 400;
+      margin-bottom: 10px;
+      display: block;
+      text-transform: capitalize;
+  }
+  .loadboardmain .search-inputs .inputsinner input{
+    border: 1px solid var(--lightdark);
+    height: 50px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: var(--white);
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .loadboardmain .search-inputs .inputsinner input[type="file"] {
+    padding: 14px 15px;
+  }
+  .loadboardmain .search-inputs .inputsinner select{
+    border: 1px solid var(--lightdark);
+    height: 50px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: var(--white);
+    width: 160px;
+    margin-bottom: 10px;
+    outline: none;
+    appearance: none;
+    background: #fff url(/src/assets/downarrow.svg);
+    background-repeat: no-repeat;
+    background-position: 130px 21px;
+  }
+  .loadboardmain .search-inputs  .buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .loadboardmain .search-inputs  .buttons .btn{
+      margin-right: 10px;
+  }
+  .loadboardcarddata {
+    margin-top: 20px;
+  }
+
+  .loadboardmain .react-datepicker-wrapper{
+    width: 100%;
+  }
+  .findcontact{
+    white-space: nowrap;
+    padding: 12px 12px;
+  }
+  .loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .loadboardmain .hCqcJI{
+    min-width: 150px;
+  }
+  .loadboardlist{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .loadboardlist .card{
+    padding: 15px 15px;
+    background-color: var(--light);
+    border-radius: 16px;
+    
+  }
+  .card .detialship{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card .detialship .location{
+    max-width: 40%;
+  }
+
+  .card .rightinfo{
+    max-width: 60%;
+  }
+  .card .detialship .location > div{
+    display: flex;
+    padding: 13px 0 0;
+  }
+  .card .rightinfo .date{
+    display: flex;
+    align-items: center;
+    padding: 10px 0 0;
+    color: #FF0000;
+  }
+  .card .weight{
+    padding: 10px 0 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .card .weight p {
+    text-align: right;
+    width: fit-content;
+    border: 1px solid var(--lightdark);
+    padding: 6px 12px;
+    line-height: normal;
+    border-radius: 15px;
+  }
+  .card span{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+  }
+  .card p{
+    margin: 0;
+    font-size: 14px;
+  }
+  .card .detialship .location .from span{
+    position: relative;
+  }
+  .card .detialship .location .from span:before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed;
+    left: 9px;
+    bottom: -11px;
+  } 
+  .card .bottominfo{
+    margin: 20px 0 10px;
+    padding: 20px 0 0;
+    border-top: 1px solid var(--lightdark);
+    color: var(--dark);
+  }
+  .card .truckinfo{
+    display: flex;
+  }
+  .card .trucktype{
+    display: flex;
+    align-items: center;
+  }
+  .card .material{
+    display: flex;
+    align-items: center;
+  }
+  .card .bottominfo > div {
+    padding: 0 0 10px;
+  }
+  .loadboarddatamain{
+    max-width: 1430px;
+    margin: 100px auto 0;
+  }
+  .loadboarddatamain .loadboardcarddata{
+    width: 100%;
+  }
+  .loadboarddatamain .loadboardinner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contactinfocard{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contactinfocard a,.contactinfocard button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14.5px 15px;
+    font-size: 14px;
+    width: 50%;
+    border: 1px solid var(--primary_color);
+    cursor: pointer;
+    background: var(--light);
+    color: var(--primary_color);
+  }
+  .contactinfocard a:first-child,.contactinfocard button:first-child{
+    border-right: none;
+  }
+  .contactinfocard  button.acceptbtn{
+    background-color: var(--primary_color);
+    color: var(--white);
+    border-color: var(--primary_color);
+  }
+  .contactinfocard a img{
+    max-width: 14px;
+  }
+  .contactinfocard .contactnumber{
+    padding: 14.5px 11px;
+    font-weight: 400;
+    line-height: 12px;
+  }
+  @media (max-width: 992px) {
+    .loadboardlist {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 600px) {
+    .loadboardlist {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }

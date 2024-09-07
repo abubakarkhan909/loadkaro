@@ -1,0 +1,69 @@
+.testimonial-slider{
+    background-color: var(--light);
+    padding: 100px 0;
+}
+.testimonial-item{
+    position: relative;
+    padding: 20px 35px;
+}
+.testimonial-item::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35px;
+    height: 25px;
+    background: url(./../../assets/leftqoo.svg) center no-repeat;
+}
+.testimonial-item::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 35px;
+    height: 25px;
+    background: url(./../../assets/rightqoo.svg) center no-repeat;
+}
+.testimonialinner{
+  display: flex;
+  border-radius: 16px;
+  background-color: var(--white);
+  padding: 20px;
+}
+.testimonialinner .testIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.testimonialinner .testIcon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.testimonialinner .content{
+ width: calc(100% - 50px);
+ padding-left: 20px;
+}
+.testimonialinner .content h4{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    margin: 0 0 9px;
+}
+.testimonialinner .content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 15px;
+}
+.testimonialinner .content .date{
+    color: var(--dark);
+    font-size: 12px;
+    line-height: 14.25px;
+    font-weight: 400;
+}

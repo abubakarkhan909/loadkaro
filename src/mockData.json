@@ -1,0 +1,7 @@
+[
+    { "id": 1, "image": "./assets/flatbed.png" },
+    { "id": 2, "image": "./../../assets/flatbed.png" },
+    { "id": 3, "image": "../assets/flatbed.png" },
+    { "id": 4, "image": "./assets/flatbed.png" }
+  ]
+  

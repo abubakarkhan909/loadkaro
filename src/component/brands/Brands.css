@@ -1,0 +1,34 @@
+.brandsMain{
+    background-color: var(--light);
+    padding: 50px 35px;
+    margin-bottom: 100px;
+}
+.brandsMain h3{
+    font-size: 24px;
+    line-height: 29.5px;
+    font-weight: 400;
+    color: var(--primary_color);
+    margin: 0 0 50px;
+    text-align: center;
+}
+.brandsMain ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brandsMain  li{
+    padding: 0 15px;
+    text-align: center;
+}
+.brandsMain li img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.brandsMain .slick-track{
+    display: flex;
+    align-items: center;
+}

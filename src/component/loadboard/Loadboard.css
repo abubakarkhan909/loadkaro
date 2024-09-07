@@ -1,0 +1,134 @@
+.loadboardmain{
+  padding: 80px 0;
+}
+.loadboardmain .search-inputs{
+  background-color: var(--light);
+  border-radius: 16px;
+  padding: 20px 20px;
+}
+.loadboardmain .search-inputs .inputsinner{
+    display: flex;
+}
+.loadboardmain .search-inputs h4{
+    margin-bottom: 15px;
+}
+.loadboardmain .search-inputs .inputsinner .form-control{
+  width: 100%;
+  margin-right: 15px;
+}
+.loadboardmain .search-inputs .inputsinner .form-control:last-child{
+    margin-right: 0;
+}
+.loadboardmain .search-inputs .inputsinner label{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    display: block;
+    text-transform: capitalize;
+}
+.loadboardmain .search-inputs .inputsinner input{
+  border: 1px solid var(--lightdark);
+  height: 50px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: var(--white);
+  width: 100%;
+  margin-bottom: 10px;
+  outline: none;
+}
+.loadboardmain .search-inputs .inputsinner input[type="file"] {
+  padding: 14px 15px;
+}
+.loadboardmain .search-inputs .inputsinner select{
+  border: 1px solid var(--lightdark);
+  height: 50px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: var(--white);
+  width: 160px;
+  margin-bottom: 10px;
+  outline: none;
+  appearance: none;
+  background: #fff url(/src/assets/downarrow.svg);
+  background-repeat: no-repeat;
+  background-position: 130px 21px;
+}
+.loadboardmain .search-inputs  .buttons{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.loadboardmain .search-inputs  .buttons .btn{
+    margin-right: 10px;
+}
+.loadboarddata {
+  margin-top: 20px;
+}
+.loadboarddata .rdt_TableHead{
+  background-color: var(--light);
+  border-radius: 16px;
+  padding: 0px 0px;
+  margin-top: 0px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+} 
+.loadboarddata .rdt_TableHeadRow{
+  background-color: transparent;
+  border: none;
+}
+.loadboarddata .rdt_TableRow{
+  background-color: var(--light);
+  border-radius: 16px;
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+.custom-pagination{
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom-pagination button{
+  background-color: transparent;
+  color: var(--primary_color);
+  box-shadow: none;
+  border: none;
+  outline: none;
+  margin: 0 5px;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+}
+.custom-pagination .innerbtns{
+  margin: 0 20px;
+}
+.custom-pagination .innerbtns button{
+  background-color: var(--light);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--primary_color);
+}
+.custom-pagination .innerbtns button.active,.custom-pagination .innerbtns button:hover{
+  background-color: var(--primary_color);
+  color: var(--white);
+}
+.custom-pagination button:disabled{
+  color: light-dark(rgba(16, 16, 16, 0.3), rgba(255, 255, 255, 0.3));
+  cursor: no-drop;
+}
+
+.loadboardmain .react-datepicker-wrapper{
+  width: 100%;
+}
+.findcontact{
+  white-space: nowrap;
+  padding: 12px 12px;
+}
+.loadboardmain .hCqcJI{
+  min-width: 150px;
+}

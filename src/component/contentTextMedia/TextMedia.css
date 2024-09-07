@@ -1,0 +1,160 @@
+.textmedia{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.textmedia .pre_content{
+    width: calc(50% + 15px);
+    padding-right: 15px;
+}
+.textmedia .pre_content.textcolorwhite{
+    color: var(--white);
+}
+.textmedia .pre_content ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.textmedia .pre_content ul li{
+    margin-bottom: 10px;
+}
+.textmedia .pre_content .listmedia{
+    display: flex;
+}
+.textmedia .pre_content .list_img{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 100%;
+    background: var(--primary_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textmedia .pre_content .list_content{
+    width: calc(100% - 50px);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.textmedia .pre_content h3{
+    margin: 0;
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 700;
+}
+.textmedia .pre_content h2{
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 56.88px;
+    margin: 0 0 20px;
+}
+.textmedia .pre_content p{
+    margin: 0 0 38px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+}
+.textmedia .pre_content .listmedia p{
+    margin: 12px 0 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.textmedia .pre_img{
+    width: calc(50% - 15px);
+    text-align: right;
+}
+.textmedia .pre_img img{
+    max-width: 100%;
+    height: auto;
+}
+.hierarchy_item{
+    display: flex;
+}
+.hierarchy_item .indexi{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary_color);
+    font-size: 20px;
+    line-height: normal;
+    font-weight: 700;
+    z-index: 1;
+}
+.hierarchy_item .indexi.textcolorwhite{
+    background-color: var(--white);
+}
+.hierarchy_item .content{
+    padding-left: 50px;
+    padding-top: 10px;
+    width: calc(100% - 50px);
+    box-sizing: border-box;
+}
+.hierarchy_item .content h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.5px;
+}
+.hierarchy_item .content p{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.textmedia.layout-left .pre_img{
+    text-align: center;
+}
+.textmedia .container-fluid{
+    display: flex;
+    align-items: center;
+}
+.textmedia .container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.textmedia.layout-left .container{
+    flex-direction: row-reverse;
+}
+.textmedia.layout-left .container .pre_content{
+    padding-right: 0;
+    padding-left: 15px;
+}
+.textmedia.herarchymain .pre_content ul li{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.textmedia .container .headingcenter{
+    text-align: center;
+}
+.headingcenter{
+    width: 100%;
+    color: var(--white);
+}
+.headingcenter h2{
+    margin-bottom: 30px;
+}
+.textmedia.herarchymain .pre_content ul li::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 2px;
+    background: url(./../../assets/Lineherir.svg) no-repeat;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    left: 25px;
+}
+.textmedia.herarchymain .pre_content ul li:last-child:before{
+    display: none;
+}
+.textmedia.has-list-items.herarchymain{
+    margin-bottom: 0;
+}
